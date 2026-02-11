@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "description": "Configuração MCP para Claude Desktop - Weather & Files Server",
+    "mcpServers": {
+        "weather-files": {
+            "command": "python",
+            "args": [
+                "c:/Users/Gabriel Humanoid/Desktop/developer/github/mcp-weather-server/server.py"
+            ],
+            "env": {
+                "WEATHER_API_KEY": "SUA_API_KEY_AQUI"
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP Weather & Files AI Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo-icon"></div>
+                <h1 class="logo-text">MCP Server</h1>
+            </div>
+            
+            <nav class="tool-nav">
+                <div class="nav-label">Ferramentas Disponíveis</div>
+                <ul id="tool-list">
+                    <!-- Tool items will be injected here -->
+                    <li class="loading-state">Carregando ferramentas...</li>
+                </ul>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <span class="status-dot online"></span>
+                    <span class="status-label">Servidor Online</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="content-header">
+                <div class="header-info">
+                    <h2 id="active-tool-name">Selecione uma Ferramenta</h2>
+                    <p id="active-tool-desc">Gerencie e teste as capacidades do seu servidor MCP.</p>
+                </div>
+                <div class="header-actions">
+                    <button id="clear-console" class="secondary-btn">Limpar Console</button>
+                </div>
+            </header>
+
+            <section class="execution-area">
+                <!-- Tool Form -->
+                <div class="tool-config-card glass-card">
+                    <h3>Configuração da Chamada</h3>
+                    <form id="tool-form" class="tool-form">
+                        <div id="form-fields">
+                            <!-- Input fields will be dynamic -->
+                            <p class="placeholder-text">Selecione uma ferramenta na barra lateral para começar.</p>
+                        </div>
+                        <button type="submit" id="run-btn" class="primary-btn" disabled>Executar Ferramenta</button>
+                    </form>
+                </div>
+
+                <!-- Console Output -->
+                <div class="console-card glass-card">
+                    <div class="console-header">
+                        <span>Console de Saída</span>
+                        <div class="console-controls">
+                            <span class="time-label" id="last-run-time">Última execução: --:--</span>
+                        </div>
+                    </div>
+                    <div id="console-output" class="console-content">
+                        <div class="console-welcome">
+                            Aguardando comando... Selecione uma ferramenta e clique em executar para ver os resultados do servidor.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
