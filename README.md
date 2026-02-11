@@ -102,7 +102,17 @@ O projeto inclui uma interface de gerenciamento moderna para testar as ferrament
 2. Acesse no navegador:
    👉 **[http://localhost:8000](http://localhost:8000)**
 
+### Demonstração Visual
+
+<table>
+  <tr>
+    <td><img src="assets/dashboard_1.png" alt="Dashboard AI Analysis" width="100%"></td>
+    <td><img src="assets/dashboard_2.png" alt="Dashboard Weather Tool" width="100%"></td>
+  </tr>
+</table>
+
 Esta interface permite simular chamadas de ferramentas, visualizar logs em tempo real e validar a conectividade com as APIs externas de forma visual.
+
 
 ## Segurança
 
