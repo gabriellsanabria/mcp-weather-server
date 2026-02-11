@@ -106,8 +106,8 @@ O projeto inclui uma interface de gerenciamento moderna para testar as ferrament
 
 <table>
   <tr>
-    <td><img src="assets/dashboard_1.png" alt="Dashboard AI Analysis" width="100%"></td>
-    <td><img src="assets/dashboard_2.png" alt="Dashboard Weather Tool" width="100%"></td>
+    <td><img src="assets/mcp_weather_files_ia.png" alt="Dashboard AI Analysis" width="100%"></td>
+    <td><img src="assets/mcp_weather_files.png" alt="Dashboard Weather Tool" width="100%"></td>
   </tr>
 </table>
 
