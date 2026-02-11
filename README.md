@@ -2,6 +2,17 @@
 
 Servidor avançado baseado no protocolo Model Context Protocol (MCP), oferecendo integração com dados meteorológicos em tempo real, acesso ao sistema de arquivos local e análise inteligente de dados para clientes compatíveis com MCP.
 
+### Demonstração Visual
+
+<table>
+  <tr>
+    <td><img src="assets/mcp_weather_files_ia.png" alt="Dashboard AI Analysis" width="100%"></td>
+    <td><img src="assets/mcp_weather_files.png" alt="Dashboard Weather Tool" width="100%"></td>
+  </tr>
+</table>
+
+Esta interface permite simular chamadas de ferramentas, visualizar logs em tempo real e validar a conectividade com as APIs externas de forma visual.
+
 ## Funcionalidades
 
 - **Dados Meteorológicos**: Informações em tempo real via OpenWeatherMap.org.
